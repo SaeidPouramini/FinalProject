@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".covid19casedata.Covid19CasesCountriesAsyncDataActivity">
+    tools:context="ca.uottawa.finalproject.Covid19CasesCountriesAsyncDataActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:background="#00D9FF"
