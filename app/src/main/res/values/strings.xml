@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">FinalProject</string>
+    <string name="ticket_master_name">Ticket Master Event Search</string>
+    <string name="search_events_title">Search Events</string>
+    <string name="saved_events_title">Saved Events</string>
+    <string name="enter_city_hint">Enter City Name</string>
+    <string name="no_events_found_msg">No Events Found</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="event_details">Event Details</string>
+    <string name="help_title">Help</string>
+    <string name ="dismiss">dismiss</string>
+    <string name="help_search">To search for events at a city, click on the periscope\n\nTo view saved events, click on the star\n\nTo view an event detail, click on the event from the list</string>
+    <string name="help_saved">Saved events page lists all events that have been saved to your phone.\n\n  To view the event details click on the event from the list</string>
 </resources>
