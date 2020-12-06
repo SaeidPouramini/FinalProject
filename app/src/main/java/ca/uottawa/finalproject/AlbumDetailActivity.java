@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.example.finalproject2.R;
+import ca.uottawa.finalproject.R;
 
 /**
  * Activity for showing an album's detail
