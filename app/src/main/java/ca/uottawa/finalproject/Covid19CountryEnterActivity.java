@@ -1,5 +1,6 @@
 package ca.uottawa.finalproject;
 
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -134,6 +135,19 @@ public class Covid19CountryEnterActivity extends AppCompatActivity implements Na
             case R.id.showSavedData:
                 startActivity(new Intent(this, Covid19CasesCountriesDatabaseDataActivity.class));
                 break;
+
+            case R.id.help:
+
+                String message = " This is Covid19 App ";
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+                alertDialogBuilder.setTitle("Help");
+                alertDialogBuilder.setMessage(message);
+                AlertDialog alertDialog = alertDialogBuilder.create();
+                alertDialog.show();
+
+                break;
+
+
         }
         return super.onOptionsItemSelected(item);
     }

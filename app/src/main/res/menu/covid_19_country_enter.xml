@@ -7,4 +7,10 @@
         app:showAsAction="never"
         android:title="@string/c19_show_saved_data" />
 
+    <item
+        android:id="@+id/help"
+        app:showAsAction="never"
+        android:title="Help" />
+
+
 </menu>
