@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".covid19casedata.Covid19CountryEnterActivity">
+    tools:context="ca.uottawa.finalproject.Covid19CountryEnterActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -72,6 +72,7 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_covid_19_cases_data"
-        app:menu="@menu/covid_19_country_enter" />
+        app:menu="@menu/covid_19_country_enter"
+        tools:ignore="MissingClass" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

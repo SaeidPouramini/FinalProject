@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="ca.uottawa.androidproject20f"
+<manifest package="ca.uottawa.finalproject"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,10 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".covid19casedata.Covid19CasesCountriesAsyncDataActivity" />
-        <activity android:name=".covid19casedata.Covid19CasesDataEmptyActivity" />
-        <activity android:name=".covid19casedata.Covid19CountryEnterActivity" />
-        <activity android:name=".covid19casedata.Covid19CasesCountriesDatabaseDataActivity" />
+        <activity android:name="ca.uottawa.finalproject.Covid19CasesCountriesAsyncDataActivity" />
+        <activity android:name="ca.uottawa.finalproject.Covid19CasesDataEmptyActivity" />
+        <activity android:name="ca.uottawa.finalproject.Covid19CountryEnterActivity" />
+        <activity android:name="ca.uottawa.finalproject.Covid19CasesCountriesDatabaseDataActivity" />
     </application>
 
 </manifest>
