@@ -138,7 +138,7 @@ public class Covid19CountryEnterActivity extends AppCompatActivity implements Na
 
             case R.id.help:
 
-                String message = " This is Covid19 App ";
+                String message = "Welcome to COVID-19 app, this app gives you information regarding latest number of COVID cases in different countries and provinces.";
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
                 alertDialogBuilder.setTitle("Help");
                 alertDialogBuilder.setMessage(message);
