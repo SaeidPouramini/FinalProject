@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">FinalProject</string>
+    <string name="app_name">AndroidProject20F</string>
+
+    <string name="c19_geo_navigation_drawer_open">Open Drawer</string>
+    <string name="c19_geo_navigation_drawer_close">Close Drawer</string>
+    <string name="c19_name">YOUR_NAME</string>
+    <string name="c19_country">Country: </string>
+    <string name="c19_country_code">Country Code: </string>
+    <string name="c19_province">Province: </string>
+    <string name="c19_city">City: </string>
+    <string name="c19_city_code">City Code: </string>
+    <string name="c19_latitude">Latitude: </string>
+    <string name="c19_longitude">Longitude: </string>
+    <string name="c19_cases">Cases: </string>
+    <string name="c19_status">Status: </string>
+    <string name="c19_date">Date: </string>
+    <string name="c19_covid_19_case_data">COVID-19 Case Data</string>
+    <string name="c19_version_1">version 1</string>
+    <string name="c19_position">Position: </string>
+    <string name="c19_ok">Ok</string>
+    <string name="c19_write_country_name_here">Write country name here</string>
+    <string name="c19_start_date_yyyy_mm_dd">Start date : yyyy-mm-dd</string>
+    <string name="c19_end_date_yyyy_mm_dd">End date : yyyy-mm-dd</string>
+    <string name="c19_find_number_of_covid_19_cases">Find number of Covid-19 cases</string>
+    <string name="c19_show_saved_data">Show Saved Data</string>
+
+
 </resources>
