@@ -9,7 +9,7 @@
     <string name="delete">Delete</string>
     <string name="event_details">Event Details</string>
     <string name="help_title">Help</string>
-    <string name ="dismiss">dismiss</string>
+    <string name="dismiss">dismiss</string>
     <string name="help_search">To search for events at a city, click on the periscope\n\nTo view saved events, click on the star\n\nTo view an event detail, click on the event from the list</string>
     <string name="help_saved">Saved events page lists all events that have been saved to your phone.\n\n  To view the event details click on the event from the list</string>
 </resources>
