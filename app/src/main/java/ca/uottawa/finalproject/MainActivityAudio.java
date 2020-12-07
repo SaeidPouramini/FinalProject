@@ -26,7 +26,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivityAudio extends AppCompatActivity {
 
     private ProgressDialog p;
     private Button artistSearchButton;
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            p = new ProgressDialog(MainActivity.this);
+            p = new ProgressDialog(MainActivityAudio.this);
             p.setMessage("Loading ...");
             p.setIndeterminate(false);
             p.setCancelable(false);
@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
             albumsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Intent intent = new Intent(MainActivity.this, AlbumDetailActivity.class);
+                    Intent intent = new Intent(MainActivityAudio.this, AlbumDetailActivity.class);
                     intent.putExtra("idAlbum", albums.get(position).getIdAlbum());
                     intent.putExtra("strAlbum", albums.get(position).getStrAlbum());
                     intent.putExtra("strArtist", albums.get(position).getStrArtist());
