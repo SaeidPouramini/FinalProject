@@ -38,7 +38,7 @@ public class MainActivityAudio extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_audio);
 
 
         albums = new ArrayList<>();
@@ -138,7 +138,7 @@ public class MainActivityAudio extends AppCompatActivity {
                 e.printStackTrace();
             } catch (NullPointerException e) {
                 //Toast.makeText(MainActivity.this, "No Network", Toast.LENGTH_SHORT)
-                        //.show();
+                //.show();
                 e.printStackTrace();
             }
             AlbumAdapter albumAdapter = new AlbumAdapter(getApplicationContext(), albums);
@@ -156,5 +156,4 @@ public class MainActivityAudio extends AppCompatActivity {
         }
     }
 }
-
 
