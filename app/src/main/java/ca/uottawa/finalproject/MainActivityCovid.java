@@ -6,7 +6,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivityCovid extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.covid19CaseData).setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, Covid19CountryEnterActivity.class));
+            startActivity(new Intent(MainActivityCovid.this, Covid19CountryEnterActivity.class));
         });
 
     }
