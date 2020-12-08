@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:background="#4C5270"
     tools:context=".MainActivity"
-
-
     >
 
     <Button
         android:id="@+id/covidbutton"
-        android:layout_width="178dp"
+        android:layout_width="match_parent"
         android:layout_height="125dp"
         android:background="@drawable/custom_button"
         android:text="@string/CovidButton"
         tools:ignore="MissingConstraints"
+        android:textSize="20dp"
         tools:layout_editor_absoluteX="117dp"
         tools:layout_editor_absoluteY="166dp" />
 
     <Button
         android:id="@+id/Recipebutton2"
-        android:layout_width="178dp"
+        android:layout_width="match_parent"
         android:layout_height="125dp"
         android:background="@drawable/custom_button"
         android:text="Go to Recipe"
+        android:textSize="20dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="291dp" />
 
     <Button
         android:id="@+id/audiobutton3"
-        android:layout_width="178dp"
+        android:layout_width="match_parent"
         android:layout_height="125dp"
         android:background="@drawable/custom_button"
         android:text="@string/AudioButton"
         tools:ignore="MissingConstraints"
+        android:textSize="20dp"
         tools:layout_editor_absoluteX="117dp"
         tools:layout_editor_absoluteY="416dp" />
 
     <Button
         android:id="@+id/ticketbutton4"
-        android:layout_width="178dp"
+        android:layout_width="match_parent"
         android:layout_height="125dp"
         android:background="@drawable/custom_button"
         android:text="@string/TicketMasterButton"
+        android:textSize="20dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="117dp"
         tools:layout_editor_absoluteY="40dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="302dp"
-        android:layout_height="71dp"
+        android:layout_width="401dp"
+        android:layout_height="130dp"
         android:text="Welcome"
-
         android:textSize="50dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="107dp"
         tools:layout_editor_absoluteY="555dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
