@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         findViewById(R.id.Recipebutton2).setOnClickListener(v -> {
-                    startActivity(new Intent(MainActivity.this, MainActivityRecipe.class));
+                    startActivity(new Intent(MainActivity.this, Recipe_Activity.class));
 
         });
                 findViewById(R.id.audiobutton3).setOnClickListener(v -> {
