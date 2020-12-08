@@ -17,15 +17,16 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.covidbutton).setOnClickListener(v -> {
                     startActivity(new Intent(MainActivity.this, Covid19CountryEnterActivity.class));
         });
-//        findViewById(R.id.Recipebutton2).setOnClickListener(v -> {
-//                    startActivity(new Intent(MainActivity.this, Recipe_activity.class));
-//
-//        });
-//                findViewById(R.id.audiobutton3).setOnClickListener(v -> {
-//                    startActivity(new Intent(MainActivity.this, MainActivityAudio.class));
-//                });
-//                    findViewById(R.id.ticketbutton4).setOnClickListener(v -> {
-//                        startActivity(new Intent(MainActivity.this, TicketMasterEventSearchActivity.class));
-//                    });
+
+        findViewById(R.id.Recipebutton2).setOnClickListener(v -> {
+                    startActivity(new Intent(MainActivity.this, Recipe_activity.class));
+
+        });
+                findViewById(R.id.audiobutton3).setOnClickListener(v -> {
+                    startActivity(new Intent(MainActivity.this, MainActivityAudio.class));
+                });
+                    findViewById(R.id.ticketbutton4).setOnClickListener(v -> {
+                        startActivity(new Intent(MainActivity.this, TicketMasterEventSearchActivity.class));
+                    });
     }
 }
