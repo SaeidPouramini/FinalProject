@@ -52,8 +52,7 @@
     <string name="address_title">Titre de l adresse</string>
     <string name="language">Langue</string>
     <string name="help">Lutilisateur peut saisir le nom d une recette à rechercher.Le serveur renvoie une liste de recettes qui correspondent aux termes de recherche. Vous devez simplement afficher les titres de la recette dans une liste. Si l utilisateur sélectionne l une des recettes, il devrait y avoir une page de détails qui montre le titre, les ingrédients et l URL de cette recette.
-    Cliquer sur cette URL devrait lancer un navigateur qui charge cette URL. Il devrait également y avoir un bouton Enregistrer pour enregistrer les détails de la recette sur l'appareil.</string>
-
+    Cliquer sur cette URL devrait lancer un navigateur qui charge cette URL. Il devrait également y avoir un bouton Enregistrer pour enregistrer les détails de la recette sur l appareil.</string>
     <string name="instruction">instruction de s- </string>
 
 </resources>
