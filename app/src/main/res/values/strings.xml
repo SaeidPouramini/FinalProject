@@ -18,7 +18,7 @@
     <string name="CovidButton"> Go To Covid</string>
     <string name="TicketMasterButton">Go to TicketMaster</string>
     <string name="AudioButton">Go to Audio</string>
-    <string name="Recipebutton">Go to Audio</string>
+    <string name="Recipebutton">Go to Recipe Search</string>
 
 
     <string name="c19_geo_navigation_drawer_open">Open Drawer</string>
@@ -43,6 +43,19 @@
     <string name="c19_end_date_yyyy_mm_dd">End date : yyyy-mm-dd</string>
     <string name="c19_find_number_of_covid_19_cases">Find number of Covid-19 cases</string>
     <string name="c19_show_saved_data">Show Saved Data</string>
+
+    <string name="title">This is title</string>
+    <string name="Ingredients">This is Ingredients</string>
+    <string name="link">This is link</string>
+    <string name="ReceipeSearchPage">Receipe Search Page</string>
+    <string name="address_title">Address title</string>
+    <string name="language">Language</string>
+    <string name="help">The user can enter the name of a recipe to search. The server returns a list of recipes that match the search terms.
+        You should just show the Titles of the recipe in a list. If the user selects one of the recipes,
+        there should be a details page which shows the Title, ingredients and URL to that recipe.
+        Clicking on that URL should launch a browser that loads that URL. There should also be a Save button to save
+        the recipe details on the device.</string>
+    <string name="instruction">Instructions- </string>
 
 
 </resources>
