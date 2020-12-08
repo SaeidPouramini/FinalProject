@@ -29,6 +29,7 @@
             android:name="org.apache.http.legacy"
             android:required="false" />
 
+        <activity android:name=".ticketmaster.TicketMasterEventSearchActivity" />
         <activity android:name=".MainActivityAudio" />
         <activity android:name=".AlbumDetailActivity" />
         <activity android:name=".SavedAlbumsActivity" />
