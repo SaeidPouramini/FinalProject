@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  
     <string name="app_name">FinalProject</string>
     <string name="ticket_master_name">Recherche d\'événement Ticket Master</string>
     <string name="search_events_title">Rechercher des événements</string>
@@ -14,8 +15,35 @@
     <string name="help_search">Pour rechercher des événements dans une ville, cliquez sur le périscope</string>
     <string name="help_saved">La page des événements enregistrés répertorie tous les événements qui ont été enregistrés sur votre téléphone.</string>
 
+
     <string name="CovidButton"> Go To Covid</string>
     <string name="TicketMasterButton">Go to TicketMaster</string>
     <string name="AudioButton">Go to Audio</string>
     <string name="Recipebutton">Go to Audio</string>
+
+
+    <string name="c19_geo_navigation_drawer_open">Ouvrir le tiroir</string>
+    <string name="c19_geo_navigation_drawer_close">Fermer le tiroir</string>
+    <string name="c19_name">VOTRE NOM</string>
+    <string name="c19_country">Pays: </string>
+    <string name="c19_country_code">Code du pays: </string>
+    <string name="c19_province">Province: </string>
+    <string name="c19_city">Ville: </string>
+    <string name="c19_city_code">Code de la ville: </string>
+    <string name="c19_latitude">Latitude: </string>
+    <string name="c19_longitude">Longitude: </string>
+    <string name="c19_cases">Cas: </string>
+    <string name="c19_status">Statut: </string>
+    <string name="c19_date">Date: </string>
+    <string name="c19_covid_19_case_data">Données de cas COVID-19</string>
+    <string name="c19_version_1">version 1</string>
+    <string name="c19_position">Position: </string>
+    <string name="c19_ok">Ok</string>
+    <string name="c19_write_country_name_here">Écrivez le nom du pays ici</string>
+    <string name="c19_start_date_yyyy_mm_dd">Date de début: aaaa-mm-jj</string>
+    <string name="c19_end_date_yyyy_mm_dd">Date de fin: aaaa-mm-jj</string>
+    <string name="c19_find_number_of_covid_19_cases">Rechercher le nombre de cas Covid-19</string>
+    <string name="c19_show_saved_data">Afficher les données enregistrées</string>
+
+
 </resources>

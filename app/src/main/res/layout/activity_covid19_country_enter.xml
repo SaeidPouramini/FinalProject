@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.uottawa.finalproject.covid.Covid19CountryEnterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:background="#00D9FF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="32dp"
+                android:textSize="18sp"
+                android:text="@string/c19_covid_19_case_data"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edittextCountryName"
+                android:hint="@string/c19_write_country_name_here"
+                android:layout_width="match_parent"
+                android:inputType="text"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edittext_from_date"
+                android:hint="@string/c19_start_date_yyyy_mm_dd"
+                android:layout_width="match_parent"
+                android:inputType="date"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edittext_to_date"
+                android:hint="@string/c19_end_date_yyyy_mm_dd"
+                android:layout_width="match_parent"
+                android:inputType="date"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/buttonFindCovidCases"
+                android:layout_width="wrap_content"
+                android:text="@string/c19_find_number_of_covid_19_cases"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_covid_19_cases_data"
+        app:menu="@menu/covid_19_country_enter"
+        tools:ignore="MissingClass" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

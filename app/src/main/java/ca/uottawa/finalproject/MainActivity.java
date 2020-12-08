@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import ca.uottawa.finalproject.covid.Covid19CountryEnterActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -13,8 +15,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.covidbutton).setOnClickListener(v -> {
-                    startActivity(new Intent(MainActivity.this, MainActivityCovid.class));
+                    startActivity(new Intent(MainActivity.this, Covid19CountryEnterActivity.class));
         });
+
         findViewById(R.id.Recipebutton2).setOnClickListener(v -> {
                     startActivity(new Intent(MainActivity.this, Recipe_activity.class));
 
