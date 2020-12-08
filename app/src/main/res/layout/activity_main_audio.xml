@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e2e2e2"
+    tools:context=".MainActivityAudio">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/artist_edt"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:imeActionId="100"
+            android:imeOptions="actionSearch"
+            android:ems="10"
+            android:hint="Artist"
+            android:inputType="text"
+            android:textColor="#121212"
+            android:textColorHint="#66121212"
+            android:layout_width="0dp" />
+
+        <Button
+            android:id="@+id/search_artist_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="32dp"
+            android:text="Search" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/albums_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:divider="#121212"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
+
+
+

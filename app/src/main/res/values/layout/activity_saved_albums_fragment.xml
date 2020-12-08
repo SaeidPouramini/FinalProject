@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e2e2e2"
+    tools:context=".SavedAlbumsFragment">
+
+    <TextView
+        android:id="@+id/saved_albums_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#c3c3c3"
+        android:elevation="4dp"
+        android:padding="1dp"
+        android:text="Your Saved Albums"
+        android:textColor="#121212"
+        android:textSize="20sp"/>
+
+    <ListView
+        android:id="@+id/saved_albums_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:divider="#121212"
+        android:dividerHeight="1dp"
+        android:paddingBottom="80dp"/>
+</LinearLayout>
