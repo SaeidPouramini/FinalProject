@@ -13,4 +13,9 @@
     <string name="help_title">" Aidez-moi"</string>
     <string name="help_search">Pour rechercher des événements dans une ville, cliquez sur le périscope</string>
     <string name="help_saved">La page des événements enregistrés répertorie tous les événements qui ont été enregistrés sur votre téléphone.</string>
+
+    <string name="CovidButton"> Go To Covid</string>
+    <string name="TicketMasterButton">Go to TicketMaster</string>
+    <string name="AudioButton">Go to Audio</string>
+    <string name="Recipebutton">Go to Audio</string>
 </resources>
