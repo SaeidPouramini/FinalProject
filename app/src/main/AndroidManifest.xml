@@ -11,17 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivityCovid">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Covid19CasesCountriesAsyncDataActivity" />
-        <activity android:name=".Covid19CasesDataEmptyActivity" />
-        <activity android:name=".Covid19CountryEnterActivity" />
-        <activity android:name=".Covid19CasesCountriesDatabaseDataActivity" />
+        <activity android:name=".covid.Covid19CasesCountriesAsyncDataActivity" />
+        <activity android:name=".covid.Covid19CasesDataEmptyActivity" />
+        <activity android:name=".covid.Covid19CountryEnterActivity" />
+        <activity android:name=".covid.Covid19CasesCountriesDatabaseDataActivity" />
     </application>
 
 </manifest>

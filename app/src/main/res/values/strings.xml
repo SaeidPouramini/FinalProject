@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">AndroidProject20F</string>
 
+    <string name="CovidButton"> Go To Covid</string>
+    <string name="TicketMasterButton">Go to TicketMaster</string>
+    <string name="AudioButton">Go to Audio</string>
+    <string name="Recipebutton">Go to Audio</string>
+
     <string name="c19_geo_navigation_drawer_open">Open Drawer</string>
     <string name="c19_geo_navigation_drawer_close">Close Drawer</string>
     <string name="c19_name">YOUR_NAME</string>

@@ -1,4 +1,4 @@
-package ca.uottawa.finalproject;
+package ca.uottawa.finalproject.covid;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

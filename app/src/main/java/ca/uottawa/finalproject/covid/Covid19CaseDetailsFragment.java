@@ -1,4 +1,4 @@
-package ca.uottawa.finalproject;
+package ca.uottawa.finalproject.covid;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
+
+import ca.uottawa.finalproject.R;
 
 /**
  * Covid19CaseDetailsFragment - This fragment will display the detailed record

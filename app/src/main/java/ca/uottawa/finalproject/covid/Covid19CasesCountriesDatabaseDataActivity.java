@@ -1,4 +1,4 @@
-package ca.uottawa.finalproject;
+package ca.uottawa.finalproject.covid;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -20,6 +20,8 @@ import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import ca.uottawa.finalproject.R;
 
 /**
  * This activity will display the COVID-19 cases stored in the database.

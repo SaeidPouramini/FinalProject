@@ -1,4 +1,4 @@
-package ca.uottawa.finalproject;
+package ca.uottawa.finalproject.covid;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -20,6 +20,8 @@ import com.google.android.material.navigation.NavigationView;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+
+import ca.uottawa.finalproject.R;
 
 /**
  * This activity will ask user to enter country, start and end date

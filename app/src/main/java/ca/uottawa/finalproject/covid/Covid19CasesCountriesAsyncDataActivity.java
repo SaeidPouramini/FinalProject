@@ -1,4 +1,4 @@
-package ca.uottawa.finalproject;
+package ca.uottawa.finalproject.covid;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -28,6 +28,8 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
+
+import ca.uottawa.finalproject.R;
 
 /**
  * This class will connect to internet and will fetch the COVID-19 records for provided country and the date duration.

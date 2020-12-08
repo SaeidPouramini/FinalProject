@@ -1,9 +1,11 @@
-package ca.uottawa.finalproject;
+package ca.uottawa.finalproject.covid;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import ca.uottawa.finalproject.R;
 
 /**
  * Empty activity to display fragment on phone or non-tablet devices
