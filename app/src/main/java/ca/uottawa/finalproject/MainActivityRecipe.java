@@ -18,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this, Covid19CountryEnterActivity.class));
         });
 
-//        findViewById(R.id.Recipebutton2).setOnClickListener(v -> {
-//                    startActivity(new Intent(MainActivity.this, Recipe_activity.class));
-//
-//        });
+        findViewById(R.id.Recipebutton2).setOnClickListener(v -> {
+                    startActivity(new Intent(MainActivity.this, MainActivityRecipe.class));
+
+        });
                 findViewById(R.id.audiobutton3).setOnClickListener(v -> {
                     startActivity(new Intent(MainActivity.this, MainActivityAudio.class));
                 });
