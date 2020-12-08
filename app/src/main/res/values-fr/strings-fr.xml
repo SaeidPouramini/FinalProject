@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="CovidButton"> Go To Covid</string>
+    <string name="TicketMasterButton">Go to TicketMaster</string>
+    <string name="AudioButton">Go to Audio</string>
+    <string name="Recipebutton">Go to Audio</string>
+
+
+</resources>
