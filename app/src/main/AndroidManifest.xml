@@ -14,7 +14,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MainActivityRecipe"></activity>
         <activity android:name=".Recipe_Activity"></activity>
         <!-- <activity android:name=".MainActivity"> -->
         <activity android:name=".MainActivity">
@@ -29,7 +28,8 @@
             android:name="org.apache.http.legacy"
             android:required="false" />
 
-        <activity android:name=".ticketmaster.TicketMasterEventSearchActivity" />
+        <activity android:name=".ticketmaster.TicketMasterEventSearchActivity"
+            android:theme="@style/AppThemeTicketMaster"/>
         <activity android:name=".MainActivityAudio" />
         <activity android:name=".AlbumDetailActivity" />
         <activity android:name=".SavedAlbumsActivity" />

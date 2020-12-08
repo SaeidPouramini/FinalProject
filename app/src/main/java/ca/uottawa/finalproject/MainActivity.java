@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import ca.uottawa.finalproject.covid.Covid19CountryEnterActivity;
+import ca.uottawa.finalproject.ticketmaster.TicketMasterEventSearchActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.audiobutton3).setOnClickListener(v -> {
                     startActivity(new Intent(MainActivity.this, MainActivityAudio.class));
                 });
-//                    findViewById(R.id.ticketbutton4).setOnClickListener(v -> {
-//                        startActivity(new Intent(MainActivity.this, TicketMasterEventSearchActivity.class));
-//                    });
+                    findViewById(R.id.ticketbutton4).setOnClickListener(v -> {
+                        startActivity(new Intent(MainActivity.this, TicketMasterEventSearchActivity.class));
+                    });
     }
 }
