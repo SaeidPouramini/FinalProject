@@ -13,10 +13,10 @@ public class SharedPrefManager {
 
 //the constants
 private static final String SHARED_PREF_NAME = "ReceipePage";
-private static final String KEY_IMAGE = "keyimage";
+/*private static final String KEY_IMAGE = "keyimage";
 private static final String KEY_TITLE = "keytitle";
 private static final String KEY_DESC = "keydesc";
-private static final String KEY_LINK = "keylink";
+private static final String KEY_LINK = "keylink";*/
 
 
 

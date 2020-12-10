@@ -19,6 +19,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.gson.Gson;
@@ -186,7 +187,7 @@ public class Recipe_Activity extends AppCompatActivity {
 
                     }
                 }catch (Exception e){
-                    //Toast.makeText(MainActivity.this,e.getMessage().toString() +"", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Recipe_Activity.this,e.getMessage().toString() +"", Toast.LENGTH_SHORT).show();
                 }
                 progressBar.setVisibility(View.GONE);
 
@@ -194,7 +195,7 @@ public class Recipe_Activity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<JsonObject> call, Throwable t) {
-                //Toast.makeText(MainActivity.this,t.getMessage().toString()+ "", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Recipe_Activity.this,t.getMessage().toString()+ "", Toast.LENGTH_SHORT).show();
                 progressBar.setVisibility(View.GONE);
 
 
