@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import ca.uottawa.finalproject.covid.Covid19CountryEnterActivity;
+import ca.uottawa.finalproject.recipe.Recipe_Activity;
 import ca.uottawa.finalproject.ticketmaster.TicketMasterEventSearchActivity;
 
 public class MainActivity extends AppCompatActivity {
