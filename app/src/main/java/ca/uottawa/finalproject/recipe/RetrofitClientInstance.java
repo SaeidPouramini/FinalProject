@@ -1,9 +1,10 @@
-package ca.uottawa.finalproject;
+package ca.uottawa.finalproject.recipe;
 
 import com.google.gson.GsonBuilder;
 
 import java.util.concurrent.TimeUnit;
 
+import ca.uottawa.finalproject.recipe.Constaints;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

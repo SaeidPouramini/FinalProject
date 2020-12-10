@@ -1,4 +1,4 @@
-package ca.uottawa.finalproject;
+package ca.uottawa.finalproject.recipe;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -15,6 +15,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+
+import ca.uottawa.finalproject.R;
 
 public class FavAdapter extends RecyclerView.Adapter<FavAdapter.ViewHolder> {
     ArrayList<String> arrayList2;

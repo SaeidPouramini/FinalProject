@@ -1,4 +1,4 @@
-package ca.uottawa.finalproject;
+package ca.uottawa.finalproject.recipe;
 
 import android.content.ContentValues;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package ca.uottawa.finalproject;
+package ca.uottawa.finalproject.recipe;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,13 +8,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.res.Configuration;
-import android.content.res.Resources;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -23,19 +18,18 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RadioGroup;
-import android.widget.SearchView;
 import android.widget.TextView;
-import android.widget.Toast;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.squareup.picasso.BuildConfig;
-import com.squareup.picasso.Picasso;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.util.ArrayList;
-import java.util.Locale;
 
+import ca.uottawa.finalproject.R;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -120,28 +114,7 @@ public class Recipe_Activity extends AppCompatActivity {
 
             }
         });
-        language.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                builder=new AlertDialog.Builder(Recipe_Activity.this).create();
-                View view= LayoutInflater.from(Recipe_Activity.this).inflate(R.layout.language,null);
-                changeLanguage=view.findViewById(R.id.radiogroup);
-                changeLanguage.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-                    @Override
-                    public void onCheckedChanged(RadioGroup group, int checkedId) {
-                        if (checkedId==R.id.us){
-                            setAppLocale("us");
-                        }if (checkedId==R.id.uk){
-                            setAppLocale("uk");
-                        }
 
-                    }
-                });
-                builder.setView(view);
-                builder.show();
-
-            }
-        });
         help=findViewById(R.id.help);
         help.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -240,23 +213,6 @@ public class Recipe_Activity extends AppCompatActivity {
             super.onBackPressed();
         }
 
-    }
-    private void setAppLocale(String localeCode){
-        if (!localeCode.equals(currentLanguage)){
-            Resources resources = getResources();
-            DisplayMetrics displayMetrics = resources.getDisplayMetrics();
-            Configuration configuration = resources.getConfiguration();
-            configuration.setLocale(new Locale(localeCode.toLowerCase()));
-            resources.updateConfiguration(configuration, displayMetrics);
-            configuration.locale = new Locale(localeCode.toLowerCase());
-            resources.updateConfiguration(configuration, displayMetrics);
-            recreate();
-            //SharedPrefLang.getInstance(this).appLanguage(localeCode);
-            builder.dismiss();
-
-        } else {
-            Toast.makeText(this, "Language already selected!", Toast.LENGTH_SHORT).show();
-        }
     }
 
     public class MyAsyncTasks extends AsyncTask<String, String, String> {

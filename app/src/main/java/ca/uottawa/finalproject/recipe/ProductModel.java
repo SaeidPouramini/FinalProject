@@ -1,4 +1,4 @@
-package ca.uottawa.finalproject;
+package ca.uottawa.finalproject.recipe;
 
 public class ProductModel { String title,href,ingredients,thumbnail;
 
