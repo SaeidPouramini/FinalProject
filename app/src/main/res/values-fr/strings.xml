@@ -55,4 +55,5 @@
     Cliquer sur cette URL devrait lancer un navigateur qui charge cette URL. Il devrait également y avoir un bouton Enregistrer pour enregistrer les détails de la recette sur l appareil.</string>
     <string name="instruction">instruction de s- </string>
 
+
 </resources>
